@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FAFAD2"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <ImageView
+        android:background="@drawable/klinik2"
+        android:layout_height="200dp"
+        android:layout_width="410dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:background="#FFCCFFCC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:onClick="buka1"
+                android:text="Hari Senin 13/07/2020"
+                android:textSize="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="0dp"
+                android:id="@+id/rizky"/>
+            <Button
+                android:background="#FFCCFFCC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Hari Selasa 14/07/2020"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"/>
+            <Button
+                android:background="#FFCCFFCC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Hari Rabu 15/07/2020"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp" />
+            <Button
+                android:background="#FFCCFFCC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:onClick="buka2"
+                android:text="Hari Kamis 16/07/2020"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp" />
+            <Button
+                android:background="#FFCCFFCC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:onClick="buka2"
+                android:text="Hari Jumat 17/07/2020"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp" />
+            <Button
+                android:background="#FFCCFFCC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:onClick="buka2"
+                android:text="Hari Sabtu 18/07/2020"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp" />
+            <Button
+                android:background="#FFCCFFCC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Hari Minggu 19/07/2020"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

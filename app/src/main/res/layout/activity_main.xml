@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/klinik3"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="195dp"
+        android:text="Klinik Bakti Sosial"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/klinik1" />
+
+<Button
+    android:onClick="buka"
+    android:id="@+id/rival"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFC0C0C0"
+    android:layout_marginLeft="140dp"
+    android:layout_marginTop="390dp"
+    android:layout_marginStart="140dp"
+    android:textSize="20dp"
+    android:text="JADWAL DOKTER"
+    android:textColor="#708090"
+    tools:ignore="OnClick" />
+
+</RelativeLayout>
